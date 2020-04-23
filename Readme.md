@@ -2,9 +2,6 @@
 
 Face Recognition using OpenCV in Python
 
-# Youtube Tutorial
-https://youtu.be/h21wMKGs0qs
-
 ### Prerequisites
 
 Numpy</br>
@@ -19,7 +16,11 @@ conda install numpy
 
 Install OpenCV via anaconda:
 conda install -c menpo opencv
-
+ 
+ or if u get any error realating to attribute error cv2.cv2 module error 
+ then  install this 
+ pip install opencv-contrib-python --user
+ 
 
 ## Running the tests
 
@@ -32,8 +33,4 @@ Run Tester.py script on commandline to train recognizer on training images and a
 5.Use "videoTester.py" script for predicting faces realtime via your webcam.(But ensure that you run tester.py first since it generates training.yml file that is being used in "videoTester.py" script.
 
 
-
-## Acknowledgments
-* https://www.superdatascience.com/opencv-face-recognition/
-* https://pythonprogramming.net/haar-cascade-face-eye-detection-python-opencv-tutorial/
 
